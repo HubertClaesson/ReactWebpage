@@ -1,0 +1,53 @@
+
+
+
+/* HeroHomeComponent Styling */
+.flexcontainerhero{
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    margin: 6em 0 0 0;
+    padding: 2em;
+}
+
+.homeheadertext{
+   margin: 4em 0 0 0;
+}
+
+img{
+    height: 40vh;
+    width: 40vw;
+    object-fit: cover;
+    display: inline;
+}
+
+/* subscriptionComponent styling med flex */
+.flexprops{
+   display: flex;
+   justify-content: center;
+   gap: 4em;
+   margin: 15em 5em 3em 5em;
+}
+
+/* Styling i subscriptionComponent */
+.cards{
+    background-color: rgb(64, 126, 126);
+    text-align: center;
+    padding: 1em 0.8em 1em 0.8em;
+    border-radius: 6px;
+    width: 140px;
+    height: 300px;
+    box-shadow: black;
+}
+
+/* ButtonComponent style */
+.Buybutton{
+   background-color: aquamarine;
+   border: aquamarine;
+   padding: 10px;
+   border-radius: 4px;
+   margin: 0 0 1em 0;
+}
+
+
+

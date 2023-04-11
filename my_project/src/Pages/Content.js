@@ -1,9 +1,10 @@
+import '../FolderCss/content.css'
+import FetchComponent from '../Components/FetchComponent'
 function Content() {
     return ( 
         <>
-        <div>
-            Hej Välkommen till Content
-        </div>
+        <h1 className='Headertext'>Vi har över 10 produkter</h1>
+        <FetchComponent />
         </>
      );
 }

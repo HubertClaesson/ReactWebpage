@@ -4,6 +4,7 @@ import Home from './Pages/Home'
 import Content from './Pages/Content'
 import SignUp from './Pages/SignUp'
 import Error from './Pages/Error'
+// import FooterComponent from './Components/FooterComponent';
 
 function App() {
   return (   
@@ -13,7 +14,7 @@ function App() {
     <ul>
       <li> <Link to={'/'}>Hem</Link></li>
       <li> <Link to={'/Content'}>Innehåll</Link></li>
-      <li> <Link to={'/SignUp'}>SignUp</Link></li>
+      <li> <Link to={'/SignUp'}>Bli medlem</Link></li>
     </ul>
    </nav>
     {/* React router börjar här  */}
@@ -23,8 +24,9 @@ function App() {
     <Route path='/SignUp' element={<SignUp />} />
     <Route path='*' element={<Error />} />
    </Routes>
+   {/* <FooterComponent /> */}
+
    </>
-   
   );
 }
 

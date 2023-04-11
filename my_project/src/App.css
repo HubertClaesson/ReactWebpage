@@ -1,38 +1,53 @@
-.App {
+/* Importerar font från google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
+
+body{
+  font-family: 'Roboto Mono', monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  position: relative;
+  /* padding-bottom: 4rem; */
+  min-height: 100vh;  
+}
+
+
+/* Navbar börjar här */
+nav{
+  width: 100vw;
+  height: 4em;
+  /* background-color: black; */
+  margin: 0 0 2em 0;
+}
+
+nav ul{
   text-align: center;
+  padding-top: 1.3em;
+  margin: 0;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav ul li {
+  list-style: none;
+  display: inline;
+  padding: 1em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav ul li a{
+  text-decoration: none;
+  color: rgb(7, 98, 179);
+  font-weight: 700;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Footer böjar här  */
+/* .footer{
+  width: 100vw;
+  height: 4rem; 
+  background-color:black;
+  color: azure;
+  text-align: center;
+  padding-top: 1rem;
+} */
