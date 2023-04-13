@@ -1,12 +1,16 @@
+import Formcomponent from '../Components/FormComponent';
+import InformationBoxBomponent from '../Components/InformationBoxBomponent';
+import SignupHeaderText from '../Components/SingupheaderText';
+
 import '../FolderCss/signup.css'
+
 
 function SignUp() {
     return ( 
         <>
-        <div>
-            <h2 className='signupHeaderText'>Välkommen till signup</h2>
-        </div>
-        {/* <img src="https://cdn.pixabay.com/photo/2016/10/05/14/13/flowers-1716747__480.jpg" alt=""/> */}
+       <SignupHeaderText />
+       <Formcomponent />
+       <InformationBoxBomponent />
         </>
      );
 }

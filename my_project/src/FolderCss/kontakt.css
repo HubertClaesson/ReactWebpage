@@ -1,0 +1,19 @@
+.kontaktflex{
+    display: flex;
+    justify-content: center;
+}
+
+.kontaktcontainer{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 600px;
+    display: block;
+    background-color: rgb(88, 209, 209);
+    margin: 5em 0 5em 0 ;
+    border-radius: 6px;
+}
+
+.textcontainer{
+    margin: 2em 3em 0 3em;
+}

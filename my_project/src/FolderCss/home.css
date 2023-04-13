@@ -1,7 +1,5 @@
-
-
-
 /* HeroHomeComponent Styling */
+
 .flexcontainerhero{
     display: flex;
     justify-content: center;
@@ -21,33 +19,53 @@ img{
     display: inline;
 }
 
-/* subscriptionComponent styling med flex */
+/* subscriptionComponent styling med flex i home.js */
 .flexprops{
    display: flex;
    justify-content: center;
-   gap: 4em;
-   margin: 15em 5em 3em 5em;
+   gap: 3em;
+   margin: 10em 0em 0em 0em;
 }
 
 /* Styling i subscriptionComponent */
 .cards{
-    background-color: rgb(64, 126, 126);
+    background-color: #D9D9D9;
     text-align: center;
     padding: 1em 0.8em 1em 0.8em;
     border-radius: 6px;
     width: 140px;
     height: 300px;
-    box-shadow: black;
 }
 
 /* ButtonComponent style */
 .Buybutton{
-   background-color: aquamarine;
-   border: aquamarine;
+   background-color:#24B9CD;
+   border: #24B9CD;
    padding: 10px;
    border-radius: 4px;
-   margin: 0 0 1em 0;
 }
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* HomeTextComponent styling */
+
+.flextext{
+    display: flex;
+    justify-content: center;
+    gap: 9em;
+    margin: 6em 0 0 0;
+}
+
+.text1{
+    background-color: blueviolet;
+    padding: 1em;
+}
+ .text2{
+    margin:2.7em 0 0 0;
+ }
+
 
 
 

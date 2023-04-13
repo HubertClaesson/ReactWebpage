@@ -2,6 +2,15 @@
 .Headertext{
     text-align: center;
     margin: 3em 0 3em 0 ;
+    background-color: brown ;
+    color: rgb(249, 245, 245);
+    width: fit-content;
+    padding: 0 0.5em 0 0.5em;
+}
+
+.Boxwrap{
+    display: flex;
+    justify-content: center;
 }
 
 /* Fetchcomponent styling */
@@ -13,25 +22,30 @@
     gap: 1em;
 }
 
-@media screen and (max-width: 1032px) {
+/* @media screen and (max-width: 1032px) {
     .gridContainer{
-      /* margin-left: 10em; */
+      margin-left: 10em;
     }
-  }
-.flexcontainer{
-    /* display: flex;
+  } */
+
+/* .flexcontainer{
+    display: flex;
     justify-content: center;
     display: block;
     margin:2em; */
     /* display: grid;
     grid-template-columns: repeat( 3, 1fr);
     grid-template-rows: 2fr;
-    margin: 0 0 2em 0; */
-}
+    margin: 0 0 2em 0;
+} */
 
 .imgout{
     width: 200px;
     height: 200px;  
     object-fit: cover;
+    border-radius: 6px;
 }
+
+
+
 

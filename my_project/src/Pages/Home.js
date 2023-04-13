@@ -1,18 +1,22 @@
+import '../FolderCss/home.css'
 import HeroHomeComponent from '../Components/HeroHomeComponent';
 import SubscriptionComponent from '../Components/subscriptionComponent';
-import '../FolderCss/home.css'
+import HomeTextComponent from '../Components/HomeTextComponent'
+
 
 function Home() {
     return ( 
         <>
         <HeroHomeComponent />
+        <HomeTextComponent />
         {/* Abonemangspriser */}
         <div className="flexprops">
-        <SubscriptionComponent className="Bob" header={"Budget paketet"} price={"1000 kr"} description={"En bra vara med bra kvaliter"}/>
-        <SubscriptionComponent className="Bob" header={"Budget paketet"} price={"1000 kr"} description={"En bra vara med bra kvaliter"}/>
-        <SubscriptionComponent className="Bob" header={"Budget paketet"} price={"1000 kr"} description={"En bra vara med bra kvaliter"}/>
+        <SubscriptionComponent header={"Budget paketet"} price={"89 kr"} description={"En bra vara med bra kvaliter"}/>
+        <SubscriptionComponent  header={"Medium paketet"} price={"110 kr"} description={"En bra vara med bra kvaliter"}/>
+        <SubscriptionComponent  header={"Fimlje- paketet"} price={"150 kr"} description={"En bra vara med bra kvaliter"}/>
         </div>
-       
+        <HomeTextComponent />
+
         </>
      );
 }
