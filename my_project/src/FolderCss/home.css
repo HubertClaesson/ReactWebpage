@@ -99,6 +99,31 @@ a{
     }
   }
 
+ /* Flexbox på SaleComponent och ChangeButtonComponent  */
+.flexSale{
+    display: flex;justify-content: center;
+    gap: 4em;
+    margin: 10em 0 0 0;
+}
+
+/* ChangeButtonComponent styling */
+.ChangeButtonStyle{
+    padding: 1em 3em 1em 3em;
+    background-color: #e4d109;
+    border: #e4d109;
+    border-radius: 8px;
+    font-size: large;
+    cursor: pointer;
+}
+
+/* SaleComponent styling */
+.SaleNumber{
+    font-size: large;
+    margin: 0.6em 0 0 0;
+}
+
+
+
 
 
 

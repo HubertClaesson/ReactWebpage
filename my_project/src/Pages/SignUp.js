@@ -1,5 +1,5 @@
 import Formcomponent from '../Components/FormComponent';
-import InformationBoxBomponent from '../Components/InformationBoxBomponent';
+import InformationBoxomponent from '../Components/InformationBoxComponent';
 import SignupHeaderText from '../Components/SingupheaderText';
 
 import '../FolderCss/signup.css'
@@ -10,11 +10,10 @@ function SignUp() {
         <>
        <SignupHeaderText />
        <Formcomponent />
-       <InformationBoxBomponent />
+       <InformationBoxomponent />
         </>
      );
 }
 
 export default SignUp;
 
-// style={{textAlign:'center', margin:' 4em 0 4em 0'}} 

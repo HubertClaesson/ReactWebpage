@@ -1,4 +1,5 @@
 import './App.css';
+import { useState,} from 'react';
 import {Routes,Route,Link} from 'react-router-dom';
 import Home from './Pages/Home'
 import Content from './Pages/Content'
@@ -6,10 +7,14 @@ import SignUp from './Pages/SignUp'
 import Error from './Pages/Error'
 import FooterComponent from './Components/FooterComponent';
 import Kontakt from './Pages/Kontakt'
-import {SomeContext} from '../src/Components/SomeContext';
+import {SaleContext} from './Components/SaleContext';
+
+
 
 
 function App() {
+  // rea knappens procentvärde används med usestate och usecontext
+ const [bonus, setBonus] = useState(0)
   return (   
    <>
    {/* Navbar börjar här  */}
@@ -23,7 +28,7 @@ function App() {
     </ul>
    </nav>
     
-    <SomeContext.Provider value={"Fiskar"}>
+    <SaleContext.Provider value={[bonus, setBonus]}>
     {/* React router börjar här  */}  
    <Routes>
     <Route path='/' element={<Home />} />
@@ -32,7 +37,7 @@ function App() {
     <Route path='/Kontakt' element={<Kontakt/>}/>
     <Route path='*' element={<Error />} />
    </Routes>
-   </SomeContext.Provider>
+   </SaleContext.Provider>
    <FooterComponent />
 
    </>

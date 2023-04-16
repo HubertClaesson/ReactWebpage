@@ -64,14 +64,14 @@ input{
 }
 
 .textbox{
-width: 588px;
+width: 400px;
 height: 98px;
 background-color: #C52020;
 margin: 0 0 2em 0;
 }
 
 .textinbox{
-    padding: 0.5em 0.6em 0.5em 0.6em;
+    padding: 0.5em 0.6em 0.5em 1em;
     color: aliceblue;
 }
 

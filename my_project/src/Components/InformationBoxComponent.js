@@ -3,7 +3,7 @@ function InformationBoxBomponent() {
         <>
         <div className="infotextwrap">
             <div className="textbox">
-            <p className="textinbox">Du kan avbryta ditt medlemskap när du vill. Vi håller inte på med bindningstid och sådant.  </p>
+            <p className="textinbox">Du kan avbryta ditt medlemskap när du vill.</p>
             </div>
         </div>
         </>

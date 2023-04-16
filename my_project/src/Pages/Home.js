@@ -2,9 +2,12 @@ import '../FolderCss/home.css'
 import HeroHomeComponent from '../Components/HeroHomeComponent';
 import SubscriptionComponent from '../Components/subscriptionComponent';
 import HomeTextComponent from '../Components/HomeTextComponent'
+import ChangeButton from '../Components/ChangeButton';
+import SaleComponent from '../Components/SaleComponent';
 
 
 function Home() {
+
     return ( 
         <>
         <HeroHomeComponent />
@@ -16,6 +19,10 @@ function Home() {
         <SubscriptionComponent header={"Budget- paketet"} price={"89 kr"} description={"En bra vara med bra kvaliteter"} par={" 1 par/mån"}/>
         <SubscriptionComponent  header={"Medium- paketet"} price={"110 kr"} description={"En bra vara med bra kvaliteter"} par={" 2 par/mån"}/>
         <SubscriptionComponent  header={"Familje- paketet"} price={"150 kr"} description={"En bra vara med bra kvaliteter"} par={" 4 par/mån"}/>
+        </div>
+        <div className='flexSale'>
+        <ChangeButton />
+        <SaleComponent />
         </div>
         <HomeTextComponent /> 
         </>
