@@ -6,22 +6,25 @@ import SignUp from './Pages/SignUp'
 import Error from './Pages/Error'
 import FooterComponent from './Components/FooterComponent';
 import Kontakt from './Pages/Kontakt'
+import {SomeContext} from '../src/Components/SomeContext';
+
 
 function App() {
   return (   
    <>
    {/* Navbar börjar här  */}
    <nav>
-   {/* <h4 className='Logga'>Blabla.se</h4> */}
     <ul>
-      <li className='Logga'>Blabal.se</li>
+      <li className='Logga'>Glasögon.se</li>
       <li> <Link to={'/'}>Hem</Link></li>
       <li> <Link to={'/Content'}>Utbud</Link></li>
       <li> <Link to={'/Kontakt'}>Kontakt</Link></li>
       <li> <Link to={'/SignUp'}>Bli medlem</Link></li>
     </ul>
    </nav>
-    {/* React router börjar här  */}
+    
+    <SomeContext.Provider value={"Fiskar"}>
+    {/* React router börjar här  */}  
    <Routes>
     <Route path='/' element={<Home />} />
     <Route path='/Content' element={<Content />} />
@@ -29,6 +32,7 @@ function App() {
     <Route path='/Kontakt' element={<Kontakt/>}/>
     <Route path='*' element={<Error />} />
    </Routes>
+   </SomeContext.Provider>
    <FooterComponent />
 
    </>

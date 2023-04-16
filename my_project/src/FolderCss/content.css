@@ -1,14 +1,14 @@
-/* ContetentComponent styling */
+/* ContentHeaderText */
 .Headertext{
     text-align: center;
     margin: 3em 0 3em 0 ;
-    background-color: brown ;
-    color: rgb(249, 245, 245);
+    /* background-color: brown; */
+    color: rgb(0, 0, 0);
     width: fit-content;
     padding: 0 0.5em 0 0.5em;
 }
 
-.Boxwrap{
+.HeaderTextwrap{
     display: flex;
     justify-content: center;
 }
@@ -22,29 +22,31 @@
     gap: 1em;
 }
 
-/* @media screen and (max-width: 1032px) {
-    .gridContainer{
-      margin-left: 10em;
-    }
-  } */
-
-/* .flexcontainer{
-    display: flex;
-    justify-content: center;
-    display: block;
-    margin:2em; */
-    /* display: grid;
-    grid-template-columns: repeat( 3, 1fr);
-    grid-template-rows: 2fr;
-    margin: 0 0 2em 0;
-} */
-
 .imgout{
     width: 200px;
     height: 200px;  
     object-fit: cover;
     border-radius: 6px;
 }
+
+.imgout:hover{
+    transform: translatey(-5px);
+    box-shadow: 0px 10px 10px rgba(83, 83, 86, 0.2);
+}
+
+.nameout{
+    background-color: #D9D9D9;
+    padding: 4px;
+    color: rgb(0, 0, 0);
+    width: fit-content;
+    padding: 0.2em 5em 0.2em 0.2em;
+    font-weight: 400;
+}
+
+
+
+
+
 
 
 

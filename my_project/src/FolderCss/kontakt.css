@@ -17,3 +17,12 @@
 .textcontainer{
     margin: 2em 3em 0 3em;
 }
+
+.searchwrap{
+    display: flex;
+    justify-content: center;
+}
+
+.carss{
+    text-align: center;
+}

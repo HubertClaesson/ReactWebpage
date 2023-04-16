@@ -19,7 +19,7 @@ function FooterComponent() {
                 <div className="flexcontainer" key={out.id}>
                        <img className="imgout" src={out.img} alt="products"/>
                    <h3 className="nameout">{out.name}</h3> 
-                    <p className="priceout">{out.price}</p>
+                    <p className="priceout">{out.type}</p>
                 </div>
             ))}
             </div>

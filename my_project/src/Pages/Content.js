@@ -1,11 +1,10 @@
 import '../FolderCss/content.css'
 import FetchComponent from '../Components/FetchComponent'
+import ContentHeaderText from '../Components/ContentHeaderText';
 function Content() {
     return ( 
         <>
-        <div className='Boxwrap'>
-        <h1 className='Headertext'>Vi har över 10 produkter</h1>
-        </div>
+       <ContentHeaderText />
         <FetchComponent />
         </>
      );

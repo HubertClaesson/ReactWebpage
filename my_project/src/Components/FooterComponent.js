@@ -1,7 +1,7 @@
 function FooterComponent() {
     return ( <>
     <footer className="footer"> 
-    <p>Abonnnemang AB 2023</p>
+    <p>Glasögon.se AB 2023</p>
     </footer>
     </> );
 }

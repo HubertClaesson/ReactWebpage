@@ -1,19 +1,17 @@
 import '../FolderCss/kontakt.css'
-function kontakt() {
+import React, {useContext} from 'react';
+import {SomeContext} from '../Components/SomeContext'
+import KontaktCard from '../Components/KontaktCard';
+
+
+function Kontakt() {
+    const msg = useContext(SomeContext)
     return ( 
         <>
-        <div className="kontaktflex">
-        <div className="kontaktcontainer">
-        <div className='textcontainer'>
-        <h1>Kontakt</h1>
-        <h3>Epost: abbonemang@gmail.com</h3>
-        <h3>Telefon: 073446672</h3>
-        <p>Vi har målet,visionen och hoppet att få fler personer att göra saker som är bra och som hjälper till i vardagen.</p>
-        </div>
-        </div>
-        </div>
+       <KontaktCard />
+        <div>{msg}</div>
         </>
      );
 }
 
-export default kontakt;
+export default Kontakt;
