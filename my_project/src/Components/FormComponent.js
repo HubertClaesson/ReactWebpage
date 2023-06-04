@@ -1,7 +1,6 @@
 import {useState} from 'react'
 
 function Formcomponent() {
-
 const [email, setEmail] = useState('');
 const [name, setName] = useState('');
 const [password, setPassword] = useState(''); 
